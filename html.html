@@ -1,0 +1,225 @@
+<html>
+<head>
+    <!-- zomato logo in the tab -->
+    <link rel="icon" type="image/x-icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" />
+
+      <!-- Font awesome icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+
+    <!-- importing styles.css -->
+    <link rel="stylesheet" href="./css.css" />
+  
+    <title>Zomato Clone</title>
+  </head>
+  <body>
+    <!-- section 1 -->
+    <section class="hero_section">
+        <!-- navigation bar -->
+    <header>
+        <nav class="nav_bar">
+            <a href="#">Get the app</a>
+        <div class="nav_bar_container">
+            <a href="#">Inventor Relations</a>
+            <a href="#">Add Restaurants</a>
+            <a href="#">Login</a>
+            <a href="#">Sign-Up</a>
+        </div>  
+        </nav>
+    </header>
+    <!-- hero section containers -->
+     <div class="hero_section_containers">
+        <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="Zomato logo" class="hero_section_logo"/>
+        <h1 class="hero_section_title">Discover the best food and drinks in Hyderabad </h1>
+        <div class="hero_section_input_containers">
+                <input class="input_containers_location" type="text" placeholder="Malkajgiri"/>
+                <input class="input_containers_search" type="text" placeholder="Search for a Restaurants,cousine,or a dish"/>           
+        </div>
+     </div>
+    </section>
+
+<!-- section 2 -->
+  <!-- This is for cards zomato offer -->
+  <section class="container we__offer">
+      <div class="we__offer_card">
+          <img src="https://blog.swiggy.com/wp-content/uploads/2023/12/Dabeli-1-1024x538.png" alt="card 1 img" />
+          <div class="we__offer_content">
+            <h2>Order Online</h2>
+            <p>Stay home and order to your doorstep</p>
+          </div>
+      </div>
+
+      <div class="we__offer_card">
+        <img src="https://b.zmtcdn.com/data/collections/2b9361aa328a43b08986f77bbec280bd_1715844025.png" alt="card 2 img" />
+        <div class="we__offer_content">
+          <h2>Dining</h2>
+          <p>View the citys favourite dining venue</p>
+        </div>
+    </div>
+
+    <div class="we__offer_card">
+      <img src="https://b.zmtcdn.com/data/collections/09bcfda0ed3d25e87b9154f42ca5f1ec_1709880931.png?fit=around|562.5:360&crop=562.5:360;*,*" alt="card 3 img" />
+      <div class="we__offer_content">
+        <h2>Nightlife and clubs</h2>
+        <p>Explore the citys top nightlife outlets</p>
+      </div>
+  </div>
+  </section>
+     <!-- Thisis for collection section -->
+     <section class="container collections">
+        <h1>Collection</h1>
+        <div class="sub__heading_container">
+          <span>Explore curated lists of top restaurants, cafes, pubs in Hospet-Hampi based on trends</span>
+          <span>All collections in Hospet-Hampi</span>
+        </div>
+        <div class="collections_card_container">
+          <div class="card card1">
+          
+            <div class="content">
+                <h4>Live Cricket Screening</h4>
+                <span>56 Places</span>
+            </div>
+            <div class="overlay"></div>
+          </div>
+
+          <div class="card card2">
+            <div class="overlay"></div>
+            <div class="content">
+                <h4>Malnad Special</h4>
+                <span>12 Places</span>
+            </div>
+          </div>
+
+          <div class="card card3">
+            <div class="overlay"></div>
+            <div class="content">
+                <h4>Newly opened Restaurants</h4>
+                <span>36 Places</span>
+            </div>
+          </div>
+
+          <div class="card card4">
+            
+            <div class="content">
+                <h4>Trending Pubs Near Me</h4>
+                <span>16 Places</span>
+            </div>
+            <div class="overlay"></div>
+          </div>
+
+        </div>
+    </section>
+
+  <!-- section-3 -->
+    <!-- This is for get the app section -->
+    <section class="container get__the_app">
+        <div class="semiContainer">
+            <div class="left">
+              <img src="https://silwatech.com/wp-content/uploads/2022/06/banner-img-res.png" alt="Mobile Banner" />
+            </div>
+            <div class="right">
+              <h1>Get the Zomato App</h1>
+              <p>We will send you a link, open it and download in your phone</p>
+              <div class="radio__button_container">
+                <div>
+                  <input type="radio" id="email" name="download_app"/>
+                  <label for="email" style="font-size: 14px;">Email</label>
+                </div>
+                <div>
+                  <input type="radio" id="phone" name="download_app"/>
+                  <label for="phone" style="font-size: 14px;">Phone</label>
+                </div>
+              </div>
+              <div class="input_container">
+                <input type="text" placeholder="Email"/>
+                <button>Share App Link</button>
+              </div>
+              <div class="download__app_container">
+                <h5>Download App From</h5>
+                <diV>
+                  <img src="data:image/jpeg;base64,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" alt="Apple Store" />
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Playe Store" />
+                </diV>
+              </div>
+            </div>
+        </div>
+      </section>
+
+<!-- section-4  -->
+
+      <!-- This is for the footer section -->
+      <footer class="container footer">
+          <div class="footer_section1">
+              <img src="data:image/png;base64,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" alt="zomato logo" />
+              <div class="section1__buttonContainer">
+                  <button>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAn1BMVEX/aCAEajj/////WAAAWhYHA40AAIoAAIgAAIUAAIIAAH8AAIAAAHv09Pr8/P5nZq9ycbS1tNfr6/Xt7fZsa7HR0edhYKzIx+FTUqfj4/HOzeasq9IyMJuAf7rX1+iamcaGhry9vdtIRqJcWq6nptCRkcQ3NpySkMlQT6W1tNqGhcF3drYYFZQfHZQoJpioqNFAPqERD5FMSqQKAZQtK5ndGSbvAAAGCElEQVR4nO2bbXuiOBSGu9kVAhoUEBBUFEWn1W2rbf//b9uToN3qaXvN7odkdn3uuYby9iHcJifvd3cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/5DfwTV3AlwDJ5xfwYmq48VylI+Wi7hWrhMjfgEn5WbrS9/3ND6dbRel6yS5dRItZgHp6P0NiQlmi8hpqlw6iTae7xkPXs+XUvrmjK59b+PSikMn8dEY8YPH5TZskyRpw+3uMfCNlWPsLmHOnKgX6ZmiskmVSBshKiGaVKh0YwqTJ1fOwq0rJ1n34eN1T4nC3Hk2x0Ko3nrc6cocpc2Rk0Z/tT/rbDQmR/zQB9WYO8WbrwtQ4yZxbpw8Bx7lg1wkib5Kpvo414dpdyMROeUjL3h2kjonTuJAF42ALLTmeq0Pw/czfXce6MIVOIm0LpxUVHC8Y1LTaW0+OteF50D/Va4vY/MkOdJbsnKQPgdOVE8rqbsLo2NDZqJXapLEG/182D2qn+i9noPax4GTlf7URDyYi3JCh+KenHjk5F4H3UnXuH8QiZa3sp9A+06eJQWTIBHRzrRV11S5qECJKIzMX9GYmKKflhSJe7K1nkLrTiLdkM/3dKYmulyUko69WCSDhFq2dFeW78/2uW7uWy891p0s6TO33Wn6p655hxQ+8rWoB7VY592lSP5Mu1e2JHBpO4m2nSjKJrJKuotSUlO1HBSi7UdVWEX9VjQDyiaZPI0XJJl0kFFsO9lQNhmLpO0+OutTNBn6ogqbIiyaMBM+ZZOm37Xq6zYRY8ooG8tptO3kkaoSXTqmY5NX4kFLoXQUybzoF7mMRkEp2oFp05e5jq5Dev/RchotO6Gy0POP+iw9DLWVdrATwyBbeVmYeassGIrdQLso84MJKUfq+EjLnUHLTuZUFBan+DANRmRlFw6TYBIHFE+CeBKUw5BiajkOpt1LShe2ud1EWnZCTVP5HjLTSUhWxv1RHNYyo391GI/6Y1GOwkl6fklRlH2ym0i7TlTQ82aqaE71jogl5ZX94GE0n8eHeD4fPQzmySiQ565f2hSKNAZ2ax67TnTVSrWImk7yTaE/VOWBbOIwm1X7fFTNsjBuZGD6QKrYDPMpnS092wHFrpOWgsPB/OjpdBW+5osqal4G+/qwMHMZi0O9H7w0UdXmr/2X2LyoDhSC7I6j2HVCv3kvPP/oanofhnIVZ/tZK814vWxn+yxeyTC8j8/FpQrpgd2mrF0nI/rNPw4TqXjiB3Je+N0Uj+cXcxn4k/hj/Igpb+2tptKukzXFy9PMTRSptK6Koiqy6eg86+WNp1mhb9apik4v6oont5pKu07uKV6m1fOP+fDw6oeDQRj2qfgc8ncn+UGae/TIf33Z7zYPlXZybzWVdp3k/yKfRMH/O58gnnC+qHe2t1zvPKN9wvimHTv6pB27voV2rO7vPKG/c8ln/eLwol8cftIvntlNpIPxk8134yfJMNyx8RPLo9S/6jhbcjvjbBiP/YRu3L68GLf3Pozbe1fj9sMbGLe/mt+pr+d3isv5neoW5nfE7noeMB9fzAOOdd/mfR5wRtlkZzuJ1p0oM1+sR+JP88U+HY+fzxfPb2S+WEx/el1BYtYVTK2n0NH6k2P6E+tP0ptZf9KtU3r8Zp3SabSkvKF1Suf1bDo7fL2erTSrlG5lPRvWPX5Ke14fa6pctj42vcH1sed11G/fr6OWjvYhuFpvX3293v71Rtfbf9iXsVAX+zLU7e7LIOLeaf/OdrkNY5WoOKQz2e3f6d3i/h0iWn65z2t5o/u8CLV4Cryr/YBe8LRwVmwMzveN1su3i32jb8vadZKcOxHYX/xfAE44d3+Aa+5+A9fACQdOOHDCgRMOnHDghAMnHDjhwAkHTjhwwoETDpxw4IQDJxw44cAJB044cMKBEw6ccOCEAyccOOHACQdOOHDCgRMOnHDghAMnHDjhwAkHTjhwwoETDpxw4IQDJxw44cAJB044cMKBEw6ccOCEAyccOOHACQdOOHDCgRMOnHDghAMnHDjhwAkHTjhwwvkLTpk8DGymdGgAAAAASUVORK5CYII=" alt="Indian Flag"  style="width: 15px"/>
+                    India
+                  </button>
+                  <button><i class="fa fa-globe"></i>English</button>
+              </div>
+          </div>
+          <div class="navigation_container">
+            <div class="link__container">
+              <h5>ABOUT ZOMATO</h5>
+              <a class="footer__link" href="#">Who we are</a>
+              <a class="footer__link" href="#">Blogs</a>
+              <a class="footer__link" href="#">Work with us</a>
+              <a class="footer__link" href="#">Investor Relations</a>
+              <a class="footer__link" href="#">Report Fraud</a>
+              <a class="footer__link" href="#">Contact Us</a>
+            </div>
+            <div class="link__container">
+              <h5>ZOMAVERSE</h5>
+              <a class="footer__link" href="#">Zomato</a>
+              <a class="footer__link" href="#">Blinkit</a>
+              <a class="footer__link" href="#">Feeding India</a>
+              <a class="footer__link" href="#">Hyperpure</a>
+              <a class="footer__link" href="#">Zomaland</a>
+            </div>
+        
+              <div class="link__container">
+                <h5>FOR RESTAURANTS</h5>
+                <a class="footer__link" href="#">Partner With Us</a>
+                <a class="footer__link" href="#">Apps for You</a>
+                <br />
+                <h5>FOR ENTERPRISES</h5>
+                <a class="footer__link" href="#">Zomato For Work</a>
+              </div>
+  
+  
+              <div class="link__container">
+                <h5>LEARN MORE</h5>
+                <a class="footer__link" href="#">Privacy</a>
+                <a class="footer__link" href="#">Security</a>
+                <a class="footer__link" href="#">Terms</a>
+                <a class="footer__link" href="#">Sitemap</a>
+              </div>
+  
+  
+              <div class="link__container">
+                  <h5>Social Media</h5>
+                  <div class="section__links_container">
+                      <button><i class="fa-brands fa-linkedin-in"></i></button>
+                      <button><i class="fa-brands fa-instagram"></i></button>
+                      <button><i class="fa-brands fa-twitter"></i></button>
+                      <button><i class="fa-brands fa-facebook"></i></button>
+                      <button><i class="fa-brands fa-youtube"></i></button>
+                  </div>
+                  <br />
+                  <img src="https://w7.pngwing.com/pngs/440/692/png-transparent-app-store-apple-logo-apple-text-logo-microsoft-store.png" alt="apple store" class="footer__section_logos" />
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaYb11SWILM9GUMlL2AP737PtZKXbt_8_ASQ&s" alt="play store" class="footer__section_logos" />
+              </div>
+            </div>
+            <div class="disclamer">
+              By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies.
+               All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.
+            </div>
+        </footer>
+    </body>
+  </html>
